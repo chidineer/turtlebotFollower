@@ -137,8 +137,6 @@ class Turtlebot_Follower:
                 self.position.linear.x = 0
 
         self.pub.publish(self.position)
-        print(error)
-        print(center_depth)
         print(text)
 
 if __name__ == '__main__':
